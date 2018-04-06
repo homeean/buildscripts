@@ -1,0 +1,1 @@
+Wenn der Raspberry Pi an einem Display betrieben wird, stören vielleicht die Meldungen beim Systemstart. Mit dem Homeean Bootscreen werden die Meldungen deaktiviert und stattdessen ein Bild mit Homeean Logo angezeigt.

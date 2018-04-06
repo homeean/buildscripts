@@ -8,7 +8,7 @@ cd harmony-api
 mkdir -p log
 npm install
 cp config/config.sample.json config/config.json
-cat > config/config.json <<EOF
+cat > config/config.json << EOF
 {
   "enableHTTPserver": true,
   "mqtt_host": "mqtt://127.0.0.1",
@@ -23,13 +23,13 @@ cat > config/config.json <<EOF
 EOF
 cd -
 echo "Autostart einrichten"
-cat > harmony-api.service <<EOF
+cat > harmony-api.service << EOF
 [Unit]
 Description=A simple server allowing you to query/control multiple local Harmony Home Hubs$
 After=network.target
 
 [Service]
-ExecStart=/home/pi/harmony-api/script/server
+ExecStart=~/harmony-api/script/server
 SyslogIdentifier=harmony-api
 Restart=on-failure
 RestartSec=10
