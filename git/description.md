@@ -1,0 +1,3 @@
+Git ist ein schnelles, skalierbares und verteiltes Versionskontrollsystem mit vielen Möglichkeiten. Git wird für homeean benötigt, weil einige der mit homeean bereitgestellten Tools auf Github.com entwickelt werden. Git stellt sicher, dass die jeweils aktuellsten Versionen dieser Tools durch das homeean-Skript heruntergeladen werden.
+
+Mehr Informationen zu Git gibt es hier: [https://git-scm.com/docs/git](https://git-scm.com/docs/git)
