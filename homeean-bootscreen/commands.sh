@@ -5,7 +5,7 @@ fi
 if ! grep -q ^disable_overscan=1 /boot/config.txt; then
     echo "disable_overscan=1" | sudo tee -a /boot/config.txt
 fi
-wget https://github.com/homeean/buildscripts/raw/master/homeean-boot-screen.png
+wget https://raw.githubusercontent.com/homeean/buildscripts/master/homeean-bootscreen/homeean-boot-screen.png
 sudo mv homeean-boot-screen.png /opt/splash.png
 cat > splashscreen.service << EOF
 [Unit]
