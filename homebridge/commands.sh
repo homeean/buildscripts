@@ -10,7 +10,7 @@ After=syslog.target network-online.target
 [Service]
 Type=simple
 User=pi
-ExecStart=/usr/bin/homebridge -U ~/.homebridge
+ExecStart=/usr/bin/homebridge
 Restart=on-failure
 RestartSec=10
 KillMode=process
@@ -20,7 +20,8 @@ WantedBy=multi-user.target
 EOF
 sudo mv homebridge.service /etc/systemd/system/homebridge.service
 echo "config.json erstellen"
-cat > config.json << EOF
+mkdir -p ~/.homebridge
+cat > ~/.homebridge/config.json << EOF
 {
   "bridge": {
     "name": "Homebridge",
@@ -41,9 +42,6 @@ cat > config.json << EOF
   ]
 }
 EOF
-mkdir -p ~/.homebridge
-mv config.json ~/.homebridge/config.json
-sudo chown pi:pi ~/.homebridge -R
 echo "Autostart aktivieren"
 sudo systemctl daemon-reload
 sudo systemctl enable homebridge
