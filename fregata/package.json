@@ -1,0 +1,6 @@
+{
+  "name": "Fregata",
+  "version": "latest",
+  "source_url": "https://github.com/xuqingfeng/fregata",
+  "dependencies": ["git"]
+}

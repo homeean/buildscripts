@@ -1,0 +1,6 @@
+{
+  "name": "Node-RED",
+  "version": "latest",
+  "source_url": "https://www.npmjs.com/package/node-red",
+  "dependencies": ["node-js"]
+}

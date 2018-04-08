@@ -1,0 +1,5 @@
+{
+  "name": "homee Prometheus.io exporter",
+  "version": "latest",
+  "source_url": "https://github.com/xenji/homee_exporter"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Homebridge",
+  "version": "latest",
+  "source_url": "https://www.npmjs.com/package/homebridge",
+  "dependencies": ["node-js"]
+}

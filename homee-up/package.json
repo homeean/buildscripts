@@ -1,0 +1,6 @@
+{
+  "name": "homeeUp",
+  "version": "latest",
+  "source_url": "https://www.npmjs.com/package/homeeup",
+  "dependencies": ["node-js"]
+}

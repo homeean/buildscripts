@@ -1,0 +1,6 @@
+{
+  "name": "Node-RED homee Plugin",
+  "version": "latest",
+  "source_url": "https://www.npmjs.com/package/node-red-contrib-homee",
+  "dependencies": ["node-red"]
+}

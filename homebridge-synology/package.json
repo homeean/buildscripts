@@ -1,0 +1,6 @@
+{
+  "name": "Homebridge-Synology",
+  "version": "latest",
+  "source_url": "https://www.npmjs.com/package/homebridge-synology",
+  "dependencies": ["homebridge"]
+}
