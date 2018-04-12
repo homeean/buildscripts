@@ -13,3 +13,5 @@ Die Originaldokumentation und die Quellen findet sich hier:
 
 Link zum Thread des Autoren in der homee Community: 
 [https://community.hom.ee/t/homeeup-virtuelle-geraete-in-homee/11352](https://community.hom.ee/t/homeeup-virtuelle-geraete-in-homee/11352)
+
+Weitere Informationen im homeepedia Wiki: [https://www.homeepedia.de/books/homeean/page/homeeup](https://www.homeepedia.de/books/homeean/page/homeeup)
