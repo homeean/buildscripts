@@ -1,0 +1,1 @@
+Das ist das Base-Template für das homeean Buildscript

@@ -2,5 +2,5 @@
   "name": "Sonos HTTP API",
   "version": "latest",
   "source_url": "https://github.com/jishi/node-sonos-http-api.git",
-  "dependencies": ["git", "node-js"]
+  "dependencies": ["node-js"]
 }

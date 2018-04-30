@@ -2,5 +2,5 @@
   "name": "homee2MQTT",
   "version": "latest",
   "source_url": "https://github.com/odig/homeeToMqtt",
-  "dependencies": ["mosquitto", "git", "node-js"]
+  "dependencies": ["mosquitto", "node-js"]
 }
