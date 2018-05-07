@@ -1,4 +1,4 @@
-sudo apt-get install nginx php-fpm
+sudo apt-get install nginx php-fpm -y
 
 sudo sed -i -e 's/index index.html index.htm/index index.php index.html index.htm/g' /etc/nginx/sites-enabled/default
 
@@ -12,5 +12,4 @@ cat > ~/index.php << EOF
 EOF
 
 sudo mv ~/index.php /var/www/html/index.php
-
 sudo /etc/init.d/nginx reload
