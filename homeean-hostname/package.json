@@ -1,4 +1,7 @@
 {
   "name": "homeean Hostname",
-  "source_url": "https://himpler.com/homeean"
+  "source_url": "https://himpler.com/homeean",
+  "config": {
+    "new_hostname": "homeean"
+  }
 }

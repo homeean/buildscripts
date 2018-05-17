@@ -1,3 +1,3 @@
 h=$(hostname)
-sudo hostname -b homeean
-sudo sed -i "s/$h/homeean/g" /etc/hosts
+sudo hostname -b ${new_hostname}
+sudo sed -i "s/$h/$new_hostname/g" /etc/hosts

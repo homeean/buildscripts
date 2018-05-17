@@ -3,3 +3,5 @@
 **Hinweis:** Es werden ebenfalls die SSH Keys neu erstellt.
 
 Der Raspberry Pi sollte nach der Änderung neu gestartet werden.
+
+**Neu: Du kannst den Hostnamen über die individuelle Konfiguration nun auch selbst festlegen.

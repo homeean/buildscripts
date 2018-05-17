@@ -15,8 +15,8 @@ cat > config/config.json << EOF
   "topic_namespace": "harmony-api",
   "mqtt_options": {
       "port": 1883,
-      "username": "mqtt",
-      "password": "mqtt",
+      "username": "${mqtt_username}",
+      "password": "${mqtt_password}",
       "rejectUnauthorized": false
   }
 }

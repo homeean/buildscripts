@@ -27,8 +27,8 @@ EOF
 fi
 
 #set passwd if file not exist
-MQTTUSER="mqtt"
-MQTTPASSWD="mqtt"
+MQTTUSER=${mqtt_username}
+MQTTPASSWD=${mqtt_password}
 if [ ! -e /etc/mosquitto/conf.d/passwd ]; then
     sudo touch /etc/mosquitto/conf.d/passwd
     sudo mosquitto_passwd -b /etc/mosquitto/conf.d/passwd ${MQTTUSER} ${MQTTPASSWD}

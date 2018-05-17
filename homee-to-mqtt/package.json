@@ -1,6 +1,14 @@
 {
-  "name": "homee2MQTT",
+  "name": "homeeToMqtt",
   "version": "latest",
   "source_url": "https://github.com/odig/homeeToMqtt",
-  "dependencies": ["mosquitto", "node-js"]
+  "dependencies": ["mosquitto", "node-js"],
+  "config": {
+    "homee_server": "",
+    "homee_username": "",
+    "homee_password": "",
+    "mqtt_server": "127.0.0.1",
+    "mqtt_username": "mqtt",
+    "mqtt_password": "mqtt"
+  }
 }
