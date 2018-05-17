@@ -13,7 +13,7 @@ echo "$(tput setaf 36)|  |  \\ /  _ \\ /     \\_/ __ \\_/ __ \\\\__  \\  /    \\
 echo "$(tput setaf 37)|   Y  (  <_> )  Y Y  \\  ___/\\  ___/ / __ \\|   |  \\"
 echo "$(tput setaf 38)|___|  /\\____/|__|_|  /\\___  >\\___  >____  /___|  /"
 echo "$(tput setaf 39)     \\/             \\/     \\/     \\/     \\/     \\/"
-echo "$(tput setaf 33)           https://himpler.com/homeean"
+echo "$(tput setaf 33)           https://homeean.de"
 
 echo ""
 echo ""
