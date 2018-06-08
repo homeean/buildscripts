@@ -4,7 +4,7 @@ ioBroker bitete eine reiche Unterstützung an Adaptern, mit deren Hilfe noch nic
 
 Die Arbeit an einem ioBroker Adapter für homee wurde gerade gestartet, wir liefern mehr Informationen sobald dieser verfügbar ist.
 
-ioBroker benötigt viel RAM und sollte auf einem RaspBerry deshalb standlone (ohne andere produktive Pakete) genutzt werden.
+ioBroker benötigt viel RAM und sollte deshalb auf einem Raspberry nur standlone (ohne andere produktive Pakete) genutzt werden.
 
 Nach der Installation muss noch die Konfiguration im Webinterface durchgeführt werden, welches Du via http://DeineRaspiIP:8081 erreichst.
 
