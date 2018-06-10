@@ -8,6 +8,6 @@ ioBroker benötigt viel RAM und sollte deshalb auf einem Raspberry nur standlone
 
 Nach der Installation muss noch die Konfiguration im Webinterface durchgeführt werden, welches Du via http://DeineRaspiIP:8081 erreichst.
 
-Mehr Infos gibt es hier: http://www.iobroker.net/docu/?lang=de
+Mehr Infos gibt es hier: [http://www.iobroker.net/docu/?lang=de](http://www.iobroker.net/docu/?lang=de)
 
-Für Support empfehlen wir neben dem o.g. Link noch das ioBroker Forum unter https://forum.iobroker.net
+Für Support empfehlen wir neben dem o.g. Link noch das ioBroker Forum unter [https://forum.iobroker.net](https://forum.iobroker.net)
