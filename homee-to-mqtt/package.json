@@ -3,12 +3,36 @@
   "version": "latest",
   "source_url": "https://github.com/odig/homeeToMqtt",
   "dependencies": ["mosquitto", "node-js"],
-  "config": {
-    "homee_server": "",
-    "homee_username": "",
-    "homee_password": "",
-    "mqtt_server": "127.0.0.1",
-    "mqtt_username": "mqtt",
-    "mqtt_password": "mqtt"
-  }
+  "config": [
+    {
+      "key": "mqtt_server",
+      "text": "Bitte gib die IP-Adresse des MQTT Servers an, z.B. 127.0.0.1",
+      "default": "127.0.0.1"
+    },
+    {
+      "key": "mqtt_username",
+      "text": "Bitte gib Deinen MQTT Benutzernamen ein",
+      "default": "mqtt"
+    },
+    {
+      "key": "mqtt_password",
+      "text": "Bitte gib Dein MQTT Passwort ein",
+      "default": "mqtt"
+    },
+    {
+      "key": "homee_server",
+      "text": "Bitte gib die IP-Adresse Deines homee ein, z.B. 192.168.1.1",
+      "default": ""
+    },
+    {
+      "key": "homee_username",
+      "text": "Bitte gib Deinen homee Benutzernamen ein",
+      "default": ""
+    },
+    {
+      "key": "homee_password",
+      "text": "Bitte gib Dein homee Passwort ein",
+      "default": ""
+    }
+  ]
 }

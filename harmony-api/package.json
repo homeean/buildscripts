@@ -3,8 +3,16 @@
   "version": "latest",
   "source_url": "https://github.com/maddox/harmony-api",
   "dependencies": ["node-js"],
-  "config": {
-    "mqtt_username": "mqtt",
-    "mqtt_password": "mqtt"
-  }
+  "config": [
+    {
+      "key": "mqtt_username",
+      "text": "Bitte gib Deinen MQTT Benutzernamen ein",
+      "default": "mqtt"
+    },
+    {
+      "key": "mqtt_password",
+      "text": "Bitte gib Dein MQTT Passwort ein",
+      "default": "mqtt"
+    }
+  ]
 }

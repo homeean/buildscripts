@@ -1,8 +1,16 @@
 {
   "name": "Mosquitto",
   "source_url": "",
-  "config": {
-    "mqtt_username": "mqtt",
-    "mqtt_password": "mqtt"
-  }
+  "config": [
+    {
+      "key": "mqtt_username",
+      "text": "Bitte gib Deinen MQTT Benutzernamen ein",
+      "default": "mqtt"
+    },
+    {
+      "key": "mqtt_password",
+      "text": "Bitte gib Dein MQTT Passwort ein",
+      "default": "mqtt"
+    }
+  ]
 }
