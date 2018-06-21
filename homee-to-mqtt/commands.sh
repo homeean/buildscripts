@@ -36,5 +36,5 @@ EOF
 
 sudo mv homee-to-mqtt.service /etc/systemd/system/homee-to-mqtt.service
 sudo systemctl daemon-reload
-sudo systemctl enable homeeToMqtt
-sudo systemctl start homeeToMqtt
+sudo systemctl enable homee-to-mqtt
+sudo systemctl start homee-to-mqtt
