@@ -1,0 +1,6 @@
+{
+  "name": "homeean-presence",
+  "version": "latest",
+  "source_url": "https://github.com/homeean/presence",
+  "dependencies": ["node-js"]
+}
