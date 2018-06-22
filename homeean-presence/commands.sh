@@ -30,7 +30,7 @@ After=syslog.target network-online.target
 [Service]
 Type=simple
 User=pi
-ExecStart=DEBUG=homeean-presence $(which homeean-presence)
+ExecStart=$(which homeean-presence)
 Restart=on-failure
 RestartSec=10
 KillMode=process
