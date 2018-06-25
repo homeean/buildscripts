@@ -6,5 +6,5 @@ Nach der Installation muss eine Konfigurationsdatei (`~/.homeean-presence/config
 
 Mehr Infos finden sich hier:
 
-https://homeean.de/presence
-https://himpler.com/blog/anwesenheitserkennung-homeean-presence
+[https://homeean.de/presence](https://homeean.de/presence)
+[https://himpler.com/blog/anwesenheitserkennung-homeean-presence](https://himpler.com/blog/anwesenheitserkennung-homeean-presence)
