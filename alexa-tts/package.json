@@ -1,0 +1,6 @@
+{
+  "name": "Alexa-TTS",
+  "version": "latest",
+  "source_url": "https://www.intelligentes-haus.de/2018/06/26/amazon-alexa-text-to-speech-tts-ubers-smart-home-nutzen/",
+  "dependencies": ["nginx-php"]
+}
