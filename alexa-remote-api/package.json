@@ -1,0 +1,6 @@
+{
+  "name": "Alexa Remote API",
+  "version": "latest",
+  "source_url": "https://github.com/stfnhmplr/alexa-remote-api",
+  "dependencies": ["node-js"]
+}
