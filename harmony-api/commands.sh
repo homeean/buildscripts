@@ -1,10 +1,14 @@
 echo "Forever installieren"
 sudo npm install -g forever
 echo "Harmony-Api laden und installieren"
-if [ ! -e /opt/harmony-api ]; then
+if [ ! -e ~/harmony-api ]; then
     git clone https://github.com/maddox/harmony-api.git ~/harmony-api
+    cd ~/harmony-api
+else
+    cd ~/harmony-api
+    git fetch origin master
+    git reset --hard origin/master
 fi
-cd ~/harmony-api
 mkdir -p log
 npm install
 cp config/config.sample.json config/config.json
