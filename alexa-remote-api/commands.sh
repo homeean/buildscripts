@@ -16,7 +16,8 @@ After=syslog.target network-online.target
 [Service]
 Type=simple
 User=pi
-ExecStart=PORT=3030 $(which alexa-remote-api)
+Environment=PORT=3030
+ExecStart=$(which alexa-remote-api)
 Restart=on-failure
 RestartSec=10
 KillMode=process
