@@ -10,7 +10,7 @@ cat > ~/.alexa-remote-api/config.json << EOF
 EOF
 cat > alexa-remote-api.service << EOF
 [Unit]
-Description=homeean presence detection
+Description="Control your Alexa device via API"
 After=syslog.target network-online.target
 
 [Service]
