@@ -37,9 +37,11 @@ cat > ~/.homebridge/config.json << EOF
       "name": "Config",
       "port": 8080,
       "log": "/var/log/daemon.log",
-      "restart": "sudo systemctl restart homebridge.service"
+      "restart": "sudo systemctl restart homebridge.service",
+      "base": "/usr/lib/node_modules"
     }
-  ]
+  ],
+  "accessories":[]
 }
 EOF
 echo "Autostart aktivieren"
