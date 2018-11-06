@@ -22,4 +22,4 @@ echo ""
 sudo apt-get update
 sudo apt-get -y upgrade
 
-sudo apt-get install git build-essential -y
+sudo apt-get install git build-essential unattended-upgrades -y

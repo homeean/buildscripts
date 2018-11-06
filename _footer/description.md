@@ -1,0 +1,1 @@
+Das ist das Footer-Template für das homeean Buildscript
