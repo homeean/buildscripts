@@ -1,0 +1,5 @@
+{
+  "name": "homeean Dashboard",
+  "source_url": "https://homeean.de",
+  "dependencies": ["nginx-php"]
+}
