@@ -1,3 +1,5 @@
+echo -e "${COLOR_ORANGE}Installiere Mosquitto${FORMAT_END}"
+
 if [ ! -e /etc/mosquitto/conf.d ]; then
     sudo apt-get -y install mosquitto mosquitto-clients
 fi

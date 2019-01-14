@@ -1,3 +1,4 @@
+echo -e "${COLOR_ORANGE}Installiere NGINX und PHP${FORMAT_END}"
 sudo apt-get install nginx php-fpm -y
 
 sudo sed -i -e 's/index index.html index.htm/index index.php index.html index.htm/g' /etc/nginx/sites-enabled/default

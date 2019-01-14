@@ -1,3 +1,4 @@
+echo -e "${COLOR_ORANGE}Installiere Fregata${FORMAT_END}"
 sudo apt-get install -y golang
 mkdir -p /home/pi/.go
 export GOPATH=/home/pi/.go

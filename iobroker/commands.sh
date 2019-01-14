@@ -1,4 +1,4 @@
-echo "ioBroker installieren"
+echo -e "${COLOR_ORANGE}Installiere iOBroker${FORMAT_END}"
 sudo mkdir /opt/iobroker
 sudo chmod 777 /opt/iobroker
 cd /opt/iobroker

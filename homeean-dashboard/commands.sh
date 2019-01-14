@@ -1,4 +1,4 @@
-echo "homeean dashboard installieren"
+echo -e "${COLOR_ORANGE}Installiere homeean Dashboard${FORMAT_END}"
 
 if ! [ -x "$(command -v composer)" ]; then
   echo "composer not found, installing composer"

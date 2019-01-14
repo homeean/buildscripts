@@ -6,5 +6,5 @@ read -p "Aus Sicherheitsgründen sollte das Standard-Passwort geändert werden. 
 [ "$REPLY" != "y" ] || passwd
 
 # done :)
-echo "Die Installation ist abgeschlossen."
-echo "Besuche https://homeean.de/donate um das Projekt zu unterstützen."
+echo -e "${COLOR_GREEN}Die Installation ist abgeschlossen.${FORMAT_END}"
+echo -e "Besuche ${FORMAT_BOLD}${COLOR_ORANGE}https://homeean.de/donate${FORMAT_END} um das Projekt zu unterstützen."

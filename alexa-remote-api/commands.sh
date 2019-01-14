@@ -1,4 +1,4 @@
-echo "Installiere alexa-remote-api"
+echo -e "${COLOR_ORANGE}Installiere alexa-remote-api${FORMAT_END}"
 sudo npm install -g alexa-remote-api
 mkdir -p ~/.alexa-remote-api
 cat > ~/.alexa-remote-api/config.json << EOF

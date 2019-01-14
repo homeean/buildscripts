@@ -1,6 +1,7 @@
-echo "Forever installieren"
+echo -e "${COLOR_ORANGE}Installiere Harmony API inklusive Forever${FORMAT_END}"
+
 sudo npm install -g forever
-echo "Harmony-Api laden und installieren"
+
 if [ ! -e ~/harmony-api ]; then
     git clone https://github.com/maddox/harmony-api.git ~/harmony-api
     cd ~/harmony-api
@@ -42,7 +43,6 @@ WantedBy=multi-user.target
 EOF
 sudo mv harmony-api /opt/harmony-api
 sudo mv harmony-api.service /etc/systemd/system/harmony-api.service
-echo "Autostart einrichten"
 sudo systemctl daemon-reload
 sudo systemctl enable harmony-api
 sudo systemctl start harmony-api

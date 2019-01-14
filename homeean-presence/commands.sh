@@ -1,4 +1,5 @@
-echo "Installiere homeean-presence"
+echo -e "${COLOR_ORANGE}Installiere homeean Presence${FORMAT_END}"
+
 sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev -y
 sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
 sudo npm install -g homeean-presence --unsafe-perm

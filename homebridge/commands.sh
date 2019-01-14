@@ -1,4 +1,5 @@
-echo "Homebridge mit config-ui installieren"
+echo -e "${COLOR_ORANGE}Installiere Homebridge mit config-ui-x${FORMAT_END}"
+
 sudo apt-get install -y libavahi-compat-libdnssd-dev
 sudo npm install -g homebridge homebridge-config-ui-x --unsafe-perm
 echo "Autostart einrichten"

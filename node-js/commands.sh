@@ -1,3 +1,5 @@
+echo -e "${COLOR_ORANGE}Installiere NodeJS und NPM${FORMAT_END}"
+
 if [ $(uname -m) == "armv7l" ]; then
     echo "Paketquellen anpassen"
 	curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -

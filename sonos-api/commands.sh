@@ -1,3 +1,5 @@
+echo -e "${COLOR_ORANGE}Installiere SONOS API${FORMAT_END}"
+
 if [ ! -e /opt/node-sonos-http-api ]; then
     git clone https://github.com/jishi/node-sonos-http-api.git ~/sonos-api
 fi
