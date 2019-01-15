@@ -1,3 +1,4 @@
+echo -e "${COLOR_ORANGE}Installiere homee To Mqtt${FORMAT_END}"
 git clone https://github.com/odig/homeeToMqtt.git
 cd homeeToMqtt
 npm install

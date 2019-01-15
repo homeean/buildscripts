@@ -1,3 +1,4 @@
+echo -e "${COLOR_ORANGE}Installiere homeean Bootscreen${FORMAT_END}"
 sudo apt-get install -y fbi
 if ! grep -q plymouth.ignore-serial-consoles /boot/cmdline.txt; then
 	sudo sed -i '1 s/$/ logo.nologo loglevel=3 quiet splash consoleblank=0 vt.global_cursor_default=0 plymouth.ignore-serial-consoles/' /boot/cmdline.txt

@@ -1,3 +1,4 @@
+echo -e "${COLOR_ORANGE}Installiere homeeup${FORMAT_END}"
 sudo npm install -g homeeup
 mkdir -p ~/.homeeup
 cat > ~/.homeeup/config.json << EOF

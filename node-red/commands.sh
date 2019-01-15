@@ -1,4 +1,5 @@
-echo "Node-RED Installation"
+echo -e "${COLOR_ORANGE}Installiere Node-RED${FORMAT_END}"
+
 sudo npm install node-red -g --unsafe-perm
 mkdir -p ~/.node-red
 echo "Node-RED Autostart einrichten"
