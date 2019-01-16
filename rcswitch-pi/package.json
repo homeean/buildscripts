@@ -1,5 +1,5 @@
 {
-  "name": "rcswitch-pi",
+  "name": "RCSwitch Pi",
   "version": "latest",
   "source_url": "https://github.com/r10r/rcswitch-pi",
   "dependencies": ["wiring-pi"]
