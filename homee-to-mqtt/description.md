@@ -9,3 +9,5 @@ Mehr Infos zu homeeToMQTT gibt es hier: [https://community.hom.ee/t/homee-in-ver
 Einen guten Einstieg in die MQTT Konzepte findet sich hier: [https://www.hivemq.com/mqtt-essentials](https://www.hivemq.com/mqtt-essentials)
 
 Ein empfehlenswerter MQTT Client für Eure Tests findet sich hier: [http://mqttfx.jensd.de](http://mqttfx.jensd.de)
+
+Das Paket ist updatefähig, allerdings wird die alte Konfiguration überschrieben

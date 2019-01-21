@@ -17,6 +17,9 @@ cat > config.json <<EOF
 EOF
 
 cd ~
+if [ -e /opt/homeeToMqtt ]; then
+    sudo rm -R /opt/homeeToMqtt
+fi
 sudo mv homeeToMqtt /opt/homeeToMqtt
 
 cat > homee-to-mqtt.service <<EOF
@@ -35,7 +38,7 @@ Environment=NODE_ENV=production PORT=8000
 WantedBy=multi-user.target
 EOF
 
-sudo mv homee-to-mqtt.service /etc/systemd/system/homee-to-mqtt.service
+sudo mv -f homee-to-mqtt.service /etc/systemd/system/homee-to-mqtt.service
 sudo systemctl daemon-reload
 sudo systemctl enable homee-to-mqtt
 sudo systemctl start homee-to-mqtt

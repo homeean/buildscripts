@@ -41,8 +41,11 @@ RestartSec=10
 [Install]
 WantedBy=multi-user.target
 EOF
+if [ -e /opt/harmony-api ]; then
+    sudo rm -R /opt/harmony-api
+fi
 sudo mv harmony-api /opt/harmony-api
-sudo mv harmony-api.service /etc/systemd/system/harmony-api.service
+sudo mv -f harmony-api.service /etc/systemd/system/harmony-api.service
 sudo systemctl daemon-reload
 sudo systemctl enable harmony-api
 sudo systemctl start harmony-api

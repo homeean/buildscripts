@@ -5,3 +5,5 @@ Mehr Infos gibt es hier: [https://github.com/maddox/harmony-api](https://github.
 Nach der Installation erreichst Du die API via: http://DeineRaspiIP:8282
 
 Thread zur API in der homee Community: [https://community.hom.ee/t/homeean-harmony-api/11013](https://community.hom.ee/t/homeean-harmony-api/11013)
+
+Das Paket ist updatefähig, allerdings wird die alte Konfiguration überschrieben
