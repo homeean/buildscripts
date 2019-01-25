@@ -16,7 +16,7 @@ cat > ~/.homeean-presence/config.json << EOF
     "persons": [
         {
             "name": "firstname",
-            "uuid": "",
+            "ble": "",
             "ip": ""
         }
     ]
