@@ -1,6 +1,0 @@
-{
-  "name": "ioBroker",
-  "version": "latest",
-  "source_url": "https://github.com/ioBroker/ioBroker/",
-  "dependencies": ["node-js"]
-}
