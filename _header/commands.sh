@@ -43,4 +43,4 @@ sudo apt-get update
 sudo apt-get -y upgrade
 
 echo -e "${COLOR_ORANGE}Installiere Git, Build-Essentials und Unattended-Upgrades${FORMAT_END}"
-sudo apt-get install git build-essential unattended-upgrades -y
+sudo apt-get install git build-essential unattended-upgrades curl -y

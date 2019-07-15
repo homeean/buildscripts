@@ -22,7 +22,9 @@ server {
 }
 EOF
 
-sudo mv -f ~/default /etc/nginx/sites-enabled/default
+sudo rm /etc/nginx/sites-enabled/default
+sudo mv -f ~/default /etc/nginx/sites-available/default
+sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
 cat > ~/index.php << EOF
         <?php echo phpinfo(); ?>
