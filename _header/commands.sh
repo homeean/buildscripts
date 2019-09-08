@@ -42,5 +42,5 @@ echo -e "${COLOR_ORANGE}Paketquellen aktualisieren und Updates installieren${FOR
 sudo apt-get update
 sudo apt-get -y upgrade
 
-echo -e "${COLOR_ORANGE}Installiere Git, Build-Essentials und Unattended-Upgrades${FORMAT_END}"
-sudo apt-get install git build-essential unattended-upgrades curl -y
+echo -e "${COLOR_ORANGE}Installiere Git und Build-Essentials${FORMAT_END}"
+sudo apt-get install git build-essential curl -y
